@@ -91,8 +91,6 @@ namespace SirenixPowered
             }
             if (EditorGUI.EndChangeCheck() || Event.current.type == EventType.MouseEnterWindow || Event.current.type == EventType.MouseLeaveWindow)
             {
-                InitializeDataTypeDic();
-                MenuTreeSetDatasType();
                 SaveAndRefreshWindow();
             }
         }
@@ -269,9 +267,17 @@ namespace SirenixPowered
 
         protected override OdinMenuTree BuildMenuTree()
         {
+            InitializeDataTypeDic();
+            MenuTreeSetDatasType();
+
             OdinMenuTree menuTree = new OdinMenuTree();
 
             MenuTreeDataSettings(ref menuTree, DataManagerWindow);
+
+            if(WindowOptions() == null)
+            {
+                return menuTree;
+            }
 
             foreach (WindowSettingsManager.DataType dataType in DataManagerWindow.DataTypes.ToList())
             {

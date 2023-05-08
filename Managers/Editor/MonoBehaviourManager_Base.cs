@@ -63,8 +63,6 @@ namespace SirenixPowered
             }
             if (EditorGUI.EndChangeCheck() || Event.current.type == EventType.MouseEnterWindow || Event.current.type == EventType.MouseLeaveWindow)
             {
-                GetDatas();
-                MenuTreeSetDatasType();
                 SaveAndRefreshWindow();
             }
         }
@@ -213,6 +211,9 @@ namespace SirenixPowered
 
         protected override OdinMenuTree BuildMenuTree()
         {
+            GetDatas();
+            MenuTreeSetDatasType();
+
             OdinMenuTree menuTree = new OdinMenuTree();
 
             MenuTreeDataSettings(ref menuTree, MonoBehaviourWindow);
