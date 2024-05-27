@@ -20,7 +20,7 @@ It allows for the creation of various custom windows and the definition of the c
 
 ![Media 26_05_2024 21-45-05](https://github.com/SamuelSatiroDev/WindowManager/assets/107225086/5ab456e5-8b7f-4a5c-8a2c-9744a7ae8748)
 
-3 - Add the attribute to a monobehaviour or scriptableObject component.
+3 - Add the attribute to a monobehaviour component or a scriptableObject.
 
 ![Media 26_05_2024 21-49-13](https://github.com/SamuelSatiroDev/WindowManager/assets/107225086/c66dc55f-be0c-49f5-9b65-cc7a3292730b)
 
