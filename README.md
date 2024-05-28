@@ -3,6 +3,8 @@
 📌 Buymeacoffee: https://www.buymeacoffee.com/baltared <br>
 📌 Discord: https://discord.gg/unJ7aEh65R<br><br>
 
+![Media 28_05_2024 00-11-08](https://github.com/SamuelSatiroDev/WindowEditorManager/assets/107225086/7ad360b7-d6fa-4442-a016-8c97febd263f)
+
 ![Media 26_05_2024 21-59-49](https://github.com/SamuelSatiroDev/WindowManager/assets/107225086/0ff65e9f-7084-40c9-8d54-74b4af010274)
 
 <h3>About</h3>
